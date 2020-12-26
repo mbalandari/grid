@@ -34,6 +34,7 @@
 /* Caption of Modal Image */
 #caption {
   margin: auto;
+  font-family: 'Oswald', sans-serif;
   display: block;
   width: 80%;
   max-width: 700px;
