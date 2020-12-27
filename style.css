@@ -1,11 +1,15 @@
 .container1 {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .container2a {
   display: inline-flex;
-
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
   /* justify-content: space-between;
   align-content: space-around; */
   padding: 20px;
@@ -13,11 +17,17 @@
   background-color: rgb(128, 196, 223);
 }
 
-.container2b {
-  display: inline-flex;
-  flex-direction: column;
+.item2a {
+  
+}
 
-  flex-wrap: wrap;
+.container2b {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  /* flex-wrap: nowrap; */
+  /* justify-content: center; */
+  align-items: center;
   /* justify-content: space-between;
   align-content: space-around; */
   padding: 20px;
@@ -34,6 +44,7 @@
   cursor: pointer;
   transition: 0.3s;
   margin-bottom: 50px;
+  
 }
 
 .item:hover {
