@@ -1,4 +1,4 @@
-.container1 {
+.container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -6,15 +6,35 @@
 }
 
 
-.container2 {
+.box1 {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: flex-start;
   padding: 20px;
   border-style: ridge;
   background-color: rgb(240, 209, 182);
 }
 
+.box2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  border-style: ridge;
+  background-color: rgb(184, 149, 176);
+}
+
+.box3 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  border-style: ridge;
+  background-color: rgb(110, 196, 132);
+}
 
 .item {
   border-radius: 5px;
@@ -26,7 +46,8 @@
 
 .list {
   border-radius: 20px;
-  margin-bottom: 50px;
+ 
+  margin: 0px 30px 50px;
   background-color: rgb(103, 151, 124);
   text-align-last: center;
 }
