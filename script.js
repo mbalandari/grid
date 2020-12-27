@@ -1,5 +1,5 @@
 var modal = document.getElementById('myModal');
-var myIMG = ['myimg1', 'myimg2']
+var myIMG = ['myimg1', 'myimg2', 'myimg3', 'myimg4', 'myimg5']
     for (var i = 0; i < myIMG.length; i++) {
         var img = document.getElementById(myIMG[i]);
         var modalImg = document.getElementById("img01");
