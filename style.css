@@ -10,7 +10,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   padding: 20px;
   border-style: ridge;
   background-color: rgb(240, 209, 182);
@@ -20,7 +20,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   padding: 20px;
   border-style: ridge;
   background-color: rgb(184, 149, 176);
@@ -30,7 +30,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   padding: 20px;
   border-style: ridge;
   background-color: rgb(110, 196, 132);
